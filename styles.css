@@ -1,0 +1,59 @@
+.h1-ejemplo {
+    color: red;
+    font-size:40px;
+    border: 1px solid royalblue;
+    background-color: aquamarine;
+}
+
+
+body header nav ul li {
+    color:brown;
+    background-color: bisque;
+}
+
+#section-img {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  background-color: rgba(124, 180, 161, 0.562);
+  width:80%;
+  text-align:left;
+}
+
+.div-img {
+    border: 3px solid royalblue;
+}
+
+body {
+    background-image: url("/imagenes/fondo2.jpg");
+   background-position: 1%;
+   background-repeat: initial;
+   
+}
+
+* {
+    line-height: 1.5;
+    list-style: none;
+    font-family: 'Montez', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: left;
+}
+
+.index-footer__section .footer__article {
+    background-color: red;
+    width: 700px;
+}
+
+.index-form {
+    color: red;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    text-decoration-color: brown;
+
+}
