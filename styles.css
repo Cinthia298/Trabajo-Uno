@@ -1,33 +1,39 @@
 .h1-ejemplo {
-    color: red;
+    color: rgba(128, 40, 150, 0.932);
     font-size:40px;
-    border: 1px solid royalblue;
-    background-color: aquamarine;
+    border: 5px outset royalblue;
+    background-color: rgb(162, 212, 196);
+    border-radius: 10px;
+    text-align: center;
 }
 
 
 body header nav ul li {
-    color:brown;
-    background-color: bisque;
+    color:rgb(226, 32, 32);
+      
 }
 
 #section-img {
-  display: flex;
-  justify-content: space-around;
-  align-items:center;
-  background-color: rgba(124, 180, 161, 0.562);
-  width:80%;
-  text-align:left;
-}
+    display: flex;
+    justify-content: center;
+    align-items:inherit;
+    width:100%;
+    text-align:center;
+  }
 
 .div-img {
-    border: 3px solid royalblue;
+    border: 3px solid rgb(13, 168, 155);
+    border-style: double;
+    padding-bottom: unset;
+    margin: auto;
+    padding: 1%;
 }
 
 body {
-    background-image: url("/imagenes/fondo2.jpg");
-   background-position: 1%;
-   background-repeat: initial;
+    background-image: url("/imagenes/pastel.jpg");
+   background-repeat: inherit;
+   background-size: contain;
+   color: rgb(7, 95, 80);
    
 }
 
@@ -43,12 +49,19 @@ h1 {
 }
 
 .index-footer__section .footer__article {
-    background-color: red;
-    width: 700px;
+    background-color: rgb(236, 88, 88);
+    width: 500px;
+    border: ridge;
+    border-color: rgba(255, 0, 43, 0.473);
+    padding: 30px;
+    justify-content: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
 }
 
 .index-form {
-    color: red;
+    color: rgba(67, 12, 155, 0.829);
     font-style: italic;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
