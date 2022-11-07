@@ -5,11 +5,13 @@
     background-color: rgb(162, 212, 196);
     border-radius: 10px;
     text-align: center;
+   
 }
 
 
 body header nav ul li {
-    color:rgb(226, 32, 32);
+    color: bisque;
+       
       
 }
 
@@ -19,21 +21,24 @@ body header nav ul li {
     align-items:inherit;
     width:100%;
     text-align:center;
+    
   }
 
-.div-img {
+  .div-img {
     border: 3px solid rgb(13, 168, 155);
     border-style: double;
     padding-bottom: unset;
     margin: auto;
-    padding: 1%;
+    padding: 10px;
+    
 }
 
 body {
-    background-image: url("/imagenes/pastel.jpg");
-   background-repeat: inherit;
+    background-image: url("/imagenes/fondoliso.jpg");
+    background-repeat: inherit;
    background-size: contain;
    color: rgb(7, 95, 80);
+   
    
 }
 
@@ -42,31 +47,65 @@ body {
     list-style: none;
     font-family: 'Montez', cursive;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 h1 {
     text-align: left;
+    
 }
 
 .index-footer__section .footer__article {
-    background-color: rgb(236, 88, 88);
-    width: 500px;
+    background-color: rgb(241, 176, 176);
+    width: 700px;
     border: ridge;
     border-color: rgba(255, 0, 43, 0.473);
     padding: 30px;
     justify-content: center;
-    height: 300px;
+    height: 400px;
     display: flex;
     align-items: center;
+    
 }
+
+
 
 .index-form {
     color: rgba(67, 12, 155, 0.829);
     font-style: italic;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
+
+
 
 a {
     text-decoration-color: brown;
+    
 
+}
+
+
+.index-ul {
+    display:flex;
+    flex-direction: row;   
+    
+}
+
+.index-ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+}
+
+.index-ul li a {
+    color: bisque;
+    
+}
+
+.index-ul li a :hover{
+    color: black;
+    
 }
